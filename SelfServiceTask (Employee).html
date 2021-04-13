@@ -27,6 +27,10 @@
    
    a:hover{color: white;}
    
+   #Tasks{margin: 20px;}
+   
+   label{text-align: center;}
+   
   </style>
  </head>
  <body>
@@ -39,7 +43,6 @@
   <table class="navLinks" border="10" align="center" width="100%">
    <tr>
     <td><a href="C:\Users\Usman Shams\Documents\QMUL (YEAR 2)\Semester 2\ECS506U - Software Engineering Project\4. Prototype\Home Page.html" target="_self">Home Page</a></td>
-	<td><a href="C:\Users\Usman Shams\Documents\QMUL (YEAR 2)\Semester 2\ECS506U - Software Engineering Project\4. Prototype\Home Page.html" target="_self">Registry</a></td>
 	<td><a href="C:\Users\Usman Shams\Documents\QMUL (YEAR 2)\Semester 2\ECS506U - Software Engineering Project\4. Prototype\Home Page.html" target="_self">Annual Leave Booking</a></td>
 	<td><a href="C:\Users\Usman Shams\Documents\QMUL (YEAR 2)\Semester 2\ECS506U - Software Engineering Project\4. Prototype\Home Page.html" target="_self">Self Service Tasks</a></td>
 	<td><a href="C:\Users\Usman Shams\Documents\QMUL (YEAR 2)\Semester 2\ECS506U - Software Engineering Project\4. Prototype\UpdateProfile.html" target="_self">Update Profile</a></td>
@@ -47,7 +50,18 @@
    <!--WRITE LOGIN AND CONTACT US IN THE TABLE ROWS-->
   </table>
   <br/>
- 
+  <div id="Tasks">  
+   <h2><u>Hello Employee!</u></h2>
+   <br/>
+   <label>Assigned Tasks : </label><textarea rows="7" cols="100" placeholder="Manager Assigned Tasks" disabled></textarea>
+   <br/><br/>
+   <label>Completed Tasks : </label><textarea rows="7" cols="100" placeholder="Tasks which Have Been Completed or Done"></textarea>  
+   <br/><br/><br/>
+   <div style="text-align: center;">
+    <input type="submit" value="Submit Tasks"/>
+   </div>	
+  </div> 
+  <br/>
  <hr width="70%"/>
   <div id="socialLinks">
    <p>&copyCopyright FDM Group 2021
@@ -68,7 +82,6 @@
 	  <a href="https://www.instagram.com/fdm_group/" target="_blank">
 	   <img src="https://www.freepnglogos.com/uploads/transparent-instagram-logo----6.png" alt="Instagram Logo" title="We Are On Instagram!" width="60" height="45"/></a>
 	 </td>
-	 <td></td>
 	</tr>
    </table>
   </div>
