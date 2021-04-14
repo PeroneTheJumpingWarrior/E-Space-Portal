@@ -1,0 +1,59 @@
+body{
+  background-color: slategray; border: 18px inset darkslategray; margin: 10px; font-family: Lucida Sans; font-size: 17px;
+}
+
+.logo{
+  margin: 10px; position: relative; width: 275px; height: 125px;
+}
+
+h1{
+  text-align: center; text-decoration: underline overline; font-weight: bold; font-size: 75px; font-family: Lucida Console;
+}
+
+.navLinks{
+  border-color: snow;
+}
+
+td{
+  text-align: center;
+}
+
+.pgBody{
+  margin: 20px;
+}
+
+h2{
+  font-size: 25px; font-family: Bahnschrift SemiBold;
+}
+
+#socialLinks{
+  text-align: center; font-size: 22px; font-weight: bold;
+}
+
+a:link{
+  color: black;
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  color: white;
+}
+
+form{
+  margin: 20px;
+}
+
+.hrStyling{
+  border: 10px solid snow; border-radius: 5px;
+}
+
+#LoginForm{
+  display: block; text-align: center;
+}
+
+.formTag{
+  font-size: 25px;
+}
