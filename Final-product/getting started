@@ -1,0 +1,15 @@
+login.php is the index file.
+
+example accounts in the system:
+----------------------------------------
+employee:
+  username: admin
+  password: password
+  
+manager:
+  username: juliuscaliao
+  password: password123
+  
+unregistered employee:
+  username: jwang
+  password: helloworld
